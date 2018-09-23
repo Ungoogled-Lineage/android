@@ -30,6 +30,7 @@
     <project path="packages/apps/SetupWizard" name="Ungoogled-Lineage/android_packages_apps_SetupWizard" />
     <project path="build" name="Ungoogled-Lineage/android_build" groups="pdk"/>
     <project path="packages/apps/Email" name="Ungoogled-Lineage/android_packages_apps_Email" groups="pdk-fs" />
+     <project path="packages/apps/MusicFX" name="Ungoogled-Lineage/android_packages_apps_MusicFX" groups="pdk-fs" />
 
     <!-- Track ThemeInterfacer -->
     <project path="packages/services/ThemeInterfacer" name="substratum/interfacer" remote="github" revision="n-rootless" />
