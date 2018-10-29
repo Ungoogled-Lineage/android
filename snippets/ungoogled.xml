@@ -13,6 +13,7 @@
     <remove-project name="LineageOS/android_vendor_cm" />
     <remove-project name="LineageOS/android_build" />
     <remove-project name="LineageOS/android_packages_apps_Email" />
+    <remove-project name="android_packages_providers_DownloadProvider" />
 
     <!-- Track our repos -->
     <project path="frameworks/base" name="Ungoogled-Lineage/android_frameworks_base" />
@@ -30,6 +31,7 @@
     <project path="build" name="Ungoogled-Lineage/android_build" groups="pdk"/>
     <project path="packages/apps/Email" name="Ungoogled-Lineage/android_packages_apps_Email" groups="pdk-fs" />
     <project path="packages/apps/MusicFX" name="Ungoogled-Lineage/android_packages_apps_MusicFX" groups="pdk-fs" />
+    <project path="packages/providers/DownloadProvider" name="Ungoogled-Lineage/android_packages_providers_DownloadProvider" groups="pdk-cw-fs,pdk-fs" />
 
     <!-- Track ThemeInterfacer -->
     <project path="packages/services/ThemeInterfacer" name="substratum/interfacer" remote="github" revision="n-rootless" />
